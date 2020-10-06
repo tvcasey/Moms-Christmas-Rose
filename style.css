@@ -11,4 +11,24 @@
     align-items: center;
   }
   
+  .row {
+    flex-direction: row;
+  }
+  
+  .flex-contain {
+    max-width: 400px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .text {
+    position: absolute;
+    top: 95%;
+    width: 65%;
+    text-align: center;
+    font-size: 18px;
+  }
   
